@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="score-board.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <h2 id="home-score">0</h2>
+            <div>
+                <button id="home-points" onclick="onePointHome()">+1</button>
+                <button id="home-points" onclick="twoPointsHome()">+2</button>
+                <button id="home-points" onclick="threePointsHome()">+3</button>
+            </div>
+        </div>
+        <div class="separator"><h2>:</h2></div>
+        <div>
+            <h3>AWAY</h3>
+            <h2 id="away-score">0</h2>
+            <div>  
+                <button id="away-points" onclick="onePointAway()">+1</button>
+                <button id="away-points" onclick="twoPointsAway()">+2</button>
+                <button id="away-points" onclick="threePointsAway()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="score-board.js"></script>
+</body>
+</html>
